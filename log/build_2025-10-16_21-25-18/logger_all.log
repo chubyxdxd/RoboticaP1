@@ -1,0 +1,126 @@
+[0.208s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.209s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x777f456af370>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x777f457ec820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x777f457ec820>>)
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.518s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fabricio/robotica/parcial1'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex1) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex1) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex1) by extension 'ignore_ament_install'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex1) by extensions ['colcon_pkg']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex1) by extension 'colcon_pkg'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex1) by extensions ['colcon_meta']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex1) by extension 'colcon_meta'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex1) by extensions ['ros']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ex1) by extension 'ros'
+[0.549s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ex1' with type 'ros.ament_python' and name 'ex1'
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.591s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'cmake_target' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'cmake_clean_first' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'cmake_force_configure' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'ament_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'ex1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.700s] DEBUG:colcon.colcon_core.verb:Building package 'ex1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fabricio/robotica/parcial1/build/ex1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fabricio/robotica/parcial1/install/ex1', 'merge_install': False, 'path': '/home/fabricio/robotica/parcial1/src/ex1', 'symlink_install': False, 'test_result_base': None}
+[0.701s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.704s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.705s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fabricio/robotica/parcial1/src/ex1' with build type 'ament_python'
+[0.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex1', 'ament_prefix_path')
+[0.711s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fabricio/robotica/parcial1/install/ex1/share/ex1/hook/ament_prefix_path.ps1'
+[0.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fabricio/robotica/parcial1/install/ex1/share/ex1/hook/ament_prefix_path.dsv'
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fabricio/robotica/parcial1/install/ex1/share/ex1/hook/ament_prefix_path.sh'
+[0.717s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.717s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.208s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fabricio/robotica/parcial1/src/ex1'
+[1.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fabricio/robotica/parcial1/src/ex1': PYTHONPATH=/home/fabricio/robotica/parcial1/build/ex1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabricio/robotica/parcial1/install/ex1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex1 build --build-base /home/fabricio/robotica/parcial1/build/ex1/build install --record /home/fabricio/robotica/parcial1/build/ex1/install.log --single-version-externally-managed install_data
+[2.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fabricio/robotica/parcial1/src/ex1' returned '0': PYTHONPATH=/home/fabricio/robotica/parcial1/build/ex1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabricio/robotica/parcial1/install/ex1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex1 build --build-base /home/fabricio/robotica/parcial1/build/ex1/build install --record /home/fabricio/robotica/parcial1/build/ex1/install.log --single-version-externally-managed install_data
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/home/fabricio/robotica/parcial1/install/ex1' for CMake module files
+[2.444s] Level 1:colcon.colcon_core.environment:checking '/home/fabricio/robotica/parcial1/install/ex1' for CMake config files
+[2.445s] Level 1:colcon.colcon_core.environment:checking '/home/fabricio/robotica/parcial1/install/ex1/lib'
+[2.445s] Level 1:colcon.colcon_core.environment:checking '/home/fabricio/robotica/parcial1/install/ex1/bin'
+[2.446s] Level 1:colcon.colcon_core.environment:checking '/home/fabricio/robotica/parcial1/install/ex1/lib/pkgconfig/ex1.pc'
+[2.446s] Level 1:colcon.colcon_core.environment:checking '/home/fabricio/robotica/parcial1/install/ex1/lib/python3.10/site-packages'
+[2.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex1', 'pythonpath')
+[2.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fabricio/robotica/parcial1/install/ex1/share/ex1/hook/pythonpath.ps1'
+[2.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fabricio/robotica/parcial1/install/ex1/share/ex1/hook/pythonpath.dsv'
+[2.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fabricio/robotica/parcial1/install/ex1/share/ex1/hook/pythonpath.sh'
+[2.450s] Level 1:colcon.colcon_core.environment:checking '/home/fabricio/robotica/parcial1/install/ex1/bin'
+[2.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ex1)
+[2.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/fabricio/robotica/parcial1/install/ex1/share/ex1/package.ps1'
+[2.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fabricio/robotica/parcial1/install/ex1/share/ex1/package.dsv'
+[2.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/fabricio/robotica/parcial1/install/ex1/share/ex1/package.sh'
+[2.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/fabricio/robotica/parcial1/install/ex1/share/ex1/package.bash'
+[2.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/fabricio/robotica/parcial1/install/ex1/share/ex1/package.zsh'
+[2.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fabricio/robotica/parcial1/install/ex1/share/colcon-core/packages/ex1)
+[2.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.464s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.464s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.464s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.482s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.482s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.482s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.524s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.525s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fabricio/robotica/parcial1/install/local_setup.ps1'
+[2.529s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fabricio/robotica/parcial1/install/_local_setup_util_ps1.py'
+[2.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fabricio/robotica/parcial1/install/setup.ps1'
+[2.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fabricio/robotica/parcial1/install/local_setup.sh'
+[2.543s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fabricio/robotica/parcial1/install/_local_setup_util_sh.py'
+[2.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fabricio/robotica/parcial1/install/setup.sh'
+[2.549s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fabricio/robotica/parcial1/install/local_setup.bash'
+[2.551s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fabricio/robotica/parcial1/install/setup.bash'
+[2.556s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fabricio/robotica/parcial1/install/local_setup.zsh'
+[2.559s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fabricio/robotica/parcial1/install/setup.zsh'

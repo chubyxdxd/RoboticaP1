@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/ex1/ex1.egg-info/PKG-INFO
+writing dependency_links to ../../build/ex1/ex1.egg-info/dependency_links.txt
+writing entry points to ../../build/ex1/ex1.egg-info/entry_points.txt
+writing requirements to ../../build/ex1/ex1.egg-info/requires.txt
+writing top-level names to ../../build/ex1/ex1.egg-info/top_level.txt
+reading manifest file '../../build/ex1/ex1.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ex1/ex1.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/fabricio/robotica/parcial1/install/ex1/lib/python3.10/site-packages/ex1-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ex1/ex1.egg-info to /home/fabricio/robotica/parcial1/install/ex1/lib/python3.10/site-packages/ex1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing node1 script to /home/fabricio/robotica/parcial1/install/ex1/lib/ex1
+Installing node2 script to /home/fabricio/robotica/parcial1/install/ex1/lib/ex1
+Installing node3 script to /home/fabricio/robotica/parcial1/install/ex1/lib/ex1
+Installing node4 script to /home/fabricio/robotica/parcial1/install/ex1/lib/ex1
+Installing node5 script to /home/fabricio/robotica/parcial1/install/ex1/lib/ex1
+writing list of installed files to '/home/fabricio/robotica/parcial1/build/ex1/install.log'

@@ -1,0 +1,7 @@
+[console_scripts]
+node1 = ex1.node1:main
+node2 = ex1.node2:main
+node3 = ex1.node3:main
+node4 = ex1.node4:main
+node5 = ex1.node5:main
+

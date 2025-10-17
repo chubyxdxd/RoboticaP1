@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/ex1/ex1.egg-info
+writing ../../build/ex1/ex1.egg-info/PKG-INFO
+writing dependency_links to ../../build/ex1/ex1.egg-info/dependency_links.txt
+writing entry points to ../../build/ex1/ex1.egg-info/entry_points.txt
+writing requirements to ../../build/ex1/ex1.egg-info/requires.txt
+writing top-level names to ../../build/ex1/ex1.egg-info/top_level.txt
+writing manifest file '../../build/ex1/ex1.egg-info/SOURCES.txt'
+reading manifest file '../../build/ex1/ex1.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ex1/ex1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fabricio/robotica/parcial1/build/ex1/build
+creating /home/fabricio/robotica/parcial1/build/ex1/build/lib
+creating /home/fabricio/robotica/parcial1/build/ex1/build/lib/ex1
+copying ex1/__init__.py -> /home/fabricio/robotica/parcial1/build/ex1/build/lib/ex1
+running install
+running install_lib
+creating /home/fabricio/robotica/parcial1/install/ex1/lib/python3.10/site-packages/ex1
+copying /home/fabricio/robotica/parcial1/build/ex1/build/lib/ex1/__init__.py -> /home/fabricio/robotica/parcial1/install/ex1/lib/python3.10/site-packages/ex1
+byte-compiling /home/fabricio/robotica/parcial1/install/ex1/lib/python3.10/site-packages/ex1/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/fabricio/robotica/parcial1/install/ex1/share/ament_index
+creating /home/fabricio/robotica/parcial1/install/ex1/share/ament_index/resource_index
+creating /home/fabricio/robotica/parcial1/install/ex1/share/ament_index/resource_index/packages
+copying resource/ex1 -> /home/fabricio/robotica/parcial1/install/ex1/share/ament_index/resource_index/packages
+copying package.xml -> /home/fabricio/robotica/parcial1/install/ex1/share/ex1
+running install_egg_info
+Copying ../../build/ex1/ex1.egg-info to /home/fabricio/robotica/parcial1/install/ex1/lib/python3.10/site-packages/ex1-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/fabricio/robotica/parcial1/build/ex1/install.log'

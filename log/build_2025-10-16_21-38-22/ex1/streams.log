@@ -1,0 +1,26 @@
+[1.150s] Invoking command in '/home/fabricio/robotica/parcial1/src/ex1': PYTHONPATH=/home/fabricio/robotica/parcial1/build/ex1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabricio/robotica/parcial1/install/ex1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex1 build --build-base /home/fabricio/robotica/parcial1/build/ex1/build install --record /home/fabricio/robotica/parcial1/build/ex1/install.log --single-version-externally-managed install_data
+[1.595s] running egg_info
+[1.596s] writing ../../build/ex1/ex1.egg-info/PKG-INFO
+[1.597s] writing dependency_links to ../../build/ex1/ex1.egg-info/dependency_links.txt
+[1.598s] writing entry points to ../../build/ex1/ex1.egg-info/entry_points.txt
+[1.598s] writing requirements to ../../build/ex1/ex1.egg-info/requires.txt
+[1.598s] writing top-level names to ../../build/ex1/ex1.egg-info/top_level.txt
+[1.602s] reading manifest file '../../build/ex1/ex1.egg-info/SOURCES.txt'
+[1.603s] adding license file 'LICENSE'
+[1.605s] writing manifest file '../../build/ex1/ex1.egg-info/SOURCES.txt'
+[1.605s] running build
+[1.605s] running build_py
+[1.606s] running install
+[1.607s] running install_lib
+[1.611s] running install_data
+[1.611s] running install_egg_info
+[1.615s] removing '/home/fabricio/robotica/parcial1/install/ex1/lib/python3.10/site-packages/ex1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.616s] Copying ../../build/ex1/ex1.egg-info to /home/fabricio/robotica/parcial1/install/ex1/lib/python3.10/site-packages/ex1-0.0.0-py3.10.egg-info
+[1.618s] running install_scripts
+[1.661s] Installing node1 script to /home/fabricio/robotica/parcial1/install/ex1/lib/ex1
+[1.662s] Installing node2 script to /home/fabricio/robotica/parcial1/install/ex1/lib/ex1
+[1.662s] Installing node3 script to /home/fabricio/robotica/parcial1/install/ex1/lib/ex1
+[1.663s] Installing node4 script to /home/fabricio/robotica/parcial1/install/ex1/lib/ex1
+[1.663s] Installing node5 script to /home/fabricio/robotica/parcial1/install/ex1/lib/ex1
+[1.664s] writing list of installed files to '/home/fabricio/robotica/parcial1/build/ex1/install.log'
+[1.730s] Invoked command in '/home/fabricio/robotica/parcial1/src/ex1' returned '0': PYTHONPATH=/home/fabricio/robotica/parcial1/build/ex1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabricio/robotica/parcial1/install/ex1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex1 build --build-base /home/fabricio/robotica/parcial1/build/ex1/build install --record /home/fabricio/robotica/parcial1/build/ex1/install.log --single-version-externally-managed install_data
